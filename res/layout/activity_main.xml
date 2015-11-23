@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+<EditText 
+    android:id="@+id/username"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="username"
+    />
+
+<EditText 
+    android:id="@+id/password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="password"/>
+
+<EditText 
+    android:id="@+id/useremail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="useremail"
+     />
+<EditText 
+    android:id="@+id/fur_info"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="fur_info"
+     />
+
+<Button 
+    android:id="@+id/Buttonmodify"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="usermodify" />"
+<Button 
+    android:id="@+id/ButtonUser"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="userInfo"/>
+<Button 
+    android:id="@+id/Buttonregister"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="userRegister"/>
+<Button 
+    android:id="@+id/ButtonCreateVote"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Createvote"/>
+
+<Button 
+    android:id="@+id/ButtonUserVote"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="vote"/>
+<Button
+    android:id="@+id/ButtonVoteList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="votelist"/>
+"
+<Button 
+    android:id="@+id/ButtonFur"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="fur"/>
+<Button 
+    android:id="@+id/ButtonFurInfo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="furInfo"/>
+<Button 
+    android:id="@+id/ButtonFurColl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="furColl"/>
+
+</LinearLayout>
