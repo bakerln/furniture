@@ -26,9 +26,9 @@ public final class R {
     }
     public static final class id {
         public static final int ButtonCreateVote=0x7f080007;
-        public static final int ButtonFur=0x7f08000a;
+        public static final int ButtonFur=0x7f08000b;
         public static final int ButtonFurColl=0x7f08000c;
-        public static final int ButtonFurInfo=0x7f08000b;
+        public static final int ButtonFurInfo=0x7f08000a;
         public static final int ButtonUser=0x7f080005;
         public static final int ButtonUserVote=0x7f080008;
         public static final int ButtonVoteList=0x7f080009;

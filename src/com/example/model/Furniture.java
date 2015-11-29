@@ -7,7 +7,7 @@ import java.util.List;
  * 
  * ÓÐ¸Ä¶¯
  * @author n
- * 11.20
+ * 11.26
  */
 public class Furniture {
 	private int fur_id;
@@ -19,6 +19,15 @@ public class Furniture {
 	private String fur_material;
 	private Date fur_date;
 	private List<Pic> pic;
+	private List<Logistics> log;
+	
+	
+	public List<Logistics> getLog() {
+		return log;
+	}
+	public void setLog(List<Logistics> log) {
+		this.log = log;
+	}
 	public int getFur_id() {
 		return fur_id;
 	}

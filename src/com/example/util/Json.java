@@ -1,7 +1,5 @@
 package com.example.util;
 
-import java.util.List;
-
 import com.example.model.Furniture;
 import com.example.model.User;
 import com.example.model.Vote;

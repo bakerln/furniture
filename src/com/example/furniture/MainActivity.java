@@ -6,6 +6,7 @@ import java.util.List;
 import com.example.util.HttpCallbackListener;
 import com.example.util.CreateHttpGet;
 import com.example.model.Furniture;
+import com.example.model.Logistics;
 import com.example.model.Pic;
 import com.example.model.User;
 import com.example.model.Vote;
@@ -163,6 +164,8 @@ public class MainActivity extends Activity {
 			}
 		});//one ClickListener
 		
+		
+		
 		/**
 		 * 用户投票接口
 		 * 创建一个家具的投票(感觉对前端没什么用)
@@ -249,6 +252,7 @@ public class MainActivity extends Activity {
 				userEg.setUserid(5);
 				int userid = userEg.getUserid();
 				String url = baseURL_VOTE + "voteList" + "&" + "userid=" + userid;
+				Log.e("votemess",url);
 				CreateHttpGet.sentHttpGet(url, new HttpCallbackListener() {
 					
 					@Override
@@ -273,6 +277,8 @@ public class MainActivity extends Activity {
 				});
 			}
 		});//one clickListener
+		
+		
 		
 		/**
 		 * 通过fur的单个特征值搜索列表
@@ -356,6 +362,11 @@ public class MainActivity extends Activity {
 						Log.e("fur", date);
 						for(Pic pics:furn.getPic()){
 							Log.e("fur", pics.getPic_add());
+						}
+						for(Logistics log:furn.getLog()){
+							String dates = new  SimpleDateFormat("yyyy-MM-dd").format(log.getLog_date());
+							Log.e("fur", log.getLog_des());
+							Log.e("fur", dates);
 						}
 					}
 				});

@@ -61,17 +61,17 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="votelist"/>
-"
-<Button 
-    android:id="@+id/ButtonFur"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="fur"/>
+
 <Button 
     android:id="@+id/ButtonFurInfo"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="furInfo"/>
+<Button 
+    android:id="@+id/ButtonFur"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="fur"/>
 <Button 
     android:id="@+id/ButtonFurColl"
     android:layout_width="match_parent"
